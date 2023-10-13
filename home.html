@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <!-- style.css file -->
     <link rel="stylesheet" href="style.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/fav_icon.png" type="image/x-icon" sizes="16*16">
     <!-- boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>PORTFOLIO</title>
+    <title>Portfolio</title>
 </head>
 <body>
     <!-- preloader section
@@ -17,7 +19,7 @@
 
     <!-- Header design -->
     <heaer class="header">
-        <a href="" class="logo">Portfolio.</a>
+        <a href="" class="logo">My_World_</a>
 
         <nav class="navbar">
             <a href="#home" id="Home" class="active">Home</a>
@@ -102,27 +104,29 @@
             <div class="services-box">
                 <i class='bx bx-code-alt'></i>
                 <h3>Web Development</h3>
-                <p>Unlock the digital realm with our Web Development mastery. <span id="dots">...<span id="more"></span>We craft web solutions that transcend conventional boundaries, transforming your ideas into captivating online experiences. Our coding prowess powers your vision, ensuring responsive, user-centric designs that captivate and convert. Dive into a world where innovation meets technology, where lines of code are the brushes painting your digital masterpiece!</span></span></p>
-                <button onclick="myFunction()" id="myBtn" class="btn">Read Less</button>
+                <p>Unlock the digital realm with our Web Development mastery. We craft web solutions that transcend conventional boundaries, transforming your ideas into captivating online experiences. Our coding prowess powers your vision, ensuring responsive, user-centric designs that captivate and convert. Dive into a world where innovation meets technology, where lines of code are the brushes painting your digital masterpiece!</p>
+                <button onclick="myFunction()" id="myBtn" class="btn">Read More</button>
             </div>
             <div class="services-box">
                 <i class='bx bx-buildings'></i>
                 <h3>Engineering Services</h3>
-                <p>Engineering excellence finds its true essence in our Engineering Services. We provide you with blueprints for innovation, driving transformative projects from concept to realization.<span id="dots">...<span id="more"></span> Our technical brilliance is the key to your groundbreaking solutions, and our services encompass a spectrum of engineering domains. Step into a world where precision reigns, and where ideas evolve into tangible, real-world solutions. It's time to unlock the power of engineering and innovation. </span></span></p>
-                <button onclick="myFunction()" id="myBtn" class="btn">Read Less</button>
+                <p>Engineering excellence finds its true essence in our Engineering Services. We provide you with blueprints for innovation, driving transformative projects from concept to realization. <span id="points">...</span> 
+                    
+                <span class="moreText" id="moreText"> Our technical brilliance is the key to your groundbreaking solutions, and our services encompass a spectrum of engineering domains. Step into a world where precision reigns, and where ideas evolve into tangible, real-world solutions. It's time to unlock the power of engineering and innovation.</span></p>
+                <button class="btn" onclick="toggleText()" id="textButton">Read More</button>
             </div>
             <div class="services-box">
                 <i class='bx bxs-palette'></i>
                 <h3>Architectural Services</h3>
-                <p>Architectural brilliance meets visionary solutions in our Architectural Services. We shape spaces with artistic precision, turning dreams into structural wonders. Our expertise goes beyond just designs; <span id="dots">...<span id="more"></span> we create the foundations for your aspirations, ensuring every detail aligns with your vision. Explore a realm where aesthetics harmonize with functionality, and where we bridge the gap between imagination and construction. Let us sculpt your architectural dreams into reality.</span></span></p>
-                <button onclick="myFunction()" id="myBtn" class="btn">Read Less</button>
+                <p>Architectural brilliance meets visionary solutions in our Architectural Services. We shape spaces with artistic precision, turning dreams into structural wonders. Our expertise goes beyond just designs; we create the foundations for your aspirations, ensuring every detail aligns with your vision. Explore a realm where aesthetics harmonize with functionality, and where we bridge the gap between imagination and construction. Let us sculpt your architectural dreams into reality.</p>
+                <button class="btn" onclick="toggleText()" id="textButton">Read More</button>
                 <!-- <a href="#" class="btn">Read More</a> -->
             </div>
             <div class="services-box">
                 <i class='bx bxs-business'></i>
                 <h3>Real Estate</h3>
-                <p>Discover the future of real estate with our forward-thinking Real Estate Services. We navigate the property landscape with digital finesse, offering expert insights,<span id="dots">...<span id="more"></span> investment strategies, and tailored solutions. Our real estate expertise transforms opportunities into prosperity, ensuring your investments align with your long-term goals. The digital era has revolutionized the real estate market, and we're here to guide you through it. It's time to redefine your journey in the realm of real estate and embark on a path of success.</span></span></p>
-                <button onclick="myFunction()" id="myBtn" class="btn">Read Less</button>
+                <p>Discover the future of real estate with our forward-thinking Real Estate Services. We navigate the property landscape with digital finesse, offering expert insights, investment strategies, and tailored solutions. Our real estate expertise transforms opportunities into prosperity, ensuring your investments align with your long-term goals. The digital era has revolutionized the real estate market, and we're here to guide you through it. It's time to redefine your journey in the realm of real estate and embark on a path of success.</p>
+                <button class="btn" onclick="toggleText()" id="textButton">Read More</button>
             </div>
         </div>
     </section>
