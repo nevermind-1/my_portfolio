@@ -110,6 +110,22 @@ console.log("what the fuck is happening in this part of the code? The function i
 
 
 
+// const btn = document.querySelector(".btn");
+// const text = document.querySelector(".moreText");
+// const cardHolder = document.querySelector(".services-box");
+
+// cardHolder.addEventListener("click", e => {
+//   const current = e.target;
+
+//   const isReadMoreBtn = current.className.include('btn');
+//   if(isReadMoreBtn){
+//     return
+//   };
+//   const currentText = e.target.parentNode.querySelector(".btn")
+//   currentText.classList.toggle()
+// });
+
+
 // function myFunction() {
 //   var dots = document.getElementById("dots");
 //   var moreText = document.getElementById("more");
